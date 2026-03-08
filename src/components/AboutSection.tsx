@@ -36,7 +36,7 @@ const AboutSection = () => {
             <div className="bg-card border border-border rounded-xl p-6 border-glow">
               <div className="flex items-center gap-2 mb-4 font-mono text-xs text-muted-foreground">
                 <span className="w-3 h-3 rounded-full bg-destructive/80" />
-                <span className="w-3 h-3 rounded-full bg-yellow-500/80" />
+                <span className="w-3 h-3 rounded-full bg-warning/80" />
                 <span className="w-3 h-3 rounded-full bg-primary/80" />
                 <span className="ml-2">about.md</span>
               </div>
