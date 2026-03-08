@@ -47,15 +47,6 @@ const HeroSection = () => {
                 <Linkedin className="h-5 w-5 text-foreground" />
               </a>
               <a
-                href="https://github.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-12 h-12 rounded-lg border border-border bg-secondary hover:border-primary hover:box-glow transition-all"
-                aria-label="GitHub"
-              >
-                <Github className="h-5 w-5 text-foreground" />
-              </a>
-              <a
                 href="mailto:moamen.ahmedhakel123@gmail.com"
                 className="flex items-center justify-center w-12 h-12 rounded-lg border border-border bg-secondary hover:border-primary hover:box-glow transition-all"
                 aria-label="Email"

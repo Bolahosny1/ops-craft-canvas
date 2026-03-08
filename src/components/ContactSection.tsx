@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Send, Linkedin, Github, Mail, MapPin, Phone } from "lucide-react";
+import { Send, Linkedin, Mail, MapPin } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 
