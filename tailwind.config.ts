@@ -54,6 +54,7 @@ export default {
         },
         terminal: "hsl(var(--terminal))",
         "terminal-dim": "hsl(var(--terminal-dim))",
+        warning: "hsl(var(--warning))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
