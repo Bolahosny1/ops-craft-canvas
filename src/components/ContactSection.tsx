@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Send, Linkedin, Github, Mail, MapPin, Phone } from "lucide-react";
+import { Send, Linkedin, Mail, MapPin } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 
@@ -103,12 +103,6 @@ const ContactSection = () => {
                   <Linkedin className="h-4 w-4 text-primary shrink-0" />
                   <a href="https://www.linkedin.com/in/moamen-hakel-401380358/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                     linkedin.com/in/moamen-hakel
-                  </a>
-                </div>
-                <div className="flex items-center gap-3 text-foreground">
-                  <Github className="h-4 w-4 text-primary shrink-0" />
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
-                    github.com/moamen
                   </a>
                 </div>
                 <div className="flex items-center gap-3 text-foreground">
