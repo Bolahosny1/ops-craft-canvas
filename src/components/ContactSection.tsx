@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Send, Linkedin, Github, Mail } from "lucide-react";
+import { Send, Linkedin, Github, Mail, MapPin, Phone } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 
@@ -91,25 +91,38 @@ const ContactSection = () => {
                 <span className="w-3 h-3 rounded-full bg-primary/80" />
                 <span className="ml-2">contact.sh</span>
               </div>
-              <div className="font-mono text-sm space-y-3">
-                <p><span className="text-primary">echo</span> <span className="text-muted-foreground">"Let's connect!"</span></p>
+              <div className="font-mono text-sm space-y-4">
+                <p><span className="text-primary">echo</span> <span className="text-muted-foreground">"Let's connect and build something great!"</span></p>
                 <div className="flex items-center gap-3 text-foreground">
-                  <Linkedin className="h-4 w-4 text-primary" />
+                  <Mail className="h-4 w-4 text-primary shrink-0" />
+                  <a href="mailto:moamen.ahmedhakel123@gmail.com" className="hover:text-primary transition-colors break-all">
+                    moamen.ahmedhakel123@gmail.com
+                  </a>
+                </div>
+                <div className="flex items-center gap-3 text-foreground">
+                  <Linkedin className="h-4 w-4 text-primary shrink-0" />
                   <a href="https://www.linkedin.com/in/moamen-hakel-401380358/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
-                    linkedin/moamen-hakel
+                    linkedin.com/in/moamen-hakel
                   </a>
                 </div>
                 <div className="flex items-center gap-3 text-foreground">
-                  <Github className="h-4 w-4 text-primary" />
+                  <Github className="h-4 w-4 text-primary shrink-0" />
                   <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
-                    github/moamen
+                    github.com/moamen
                   </a>
                 </div>
                 <div className="flex items-center gap-3 text-foreground">
-                  <Mail className="h-4 w-4 text-primary" />
-                  <span>moamen@devops.dev</span>
+                  <MapPin className="h-4 w-4 text-primary shrink-0" />
+                  <span>Egypt</span>
                 </div>
               </div>
+            </div>
+
+            <div className="mt-6 bg-card border border-border rounded-xl p-6">
+              <h3 className="font-mono text-sm text-primary mb-3">// Open to opportunities</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                I'm currently open to DevOps & Cloud Engineering roles. Whether it's a full-time position, freelance project, or consulting — feel free to reach out!
+              </p>
             </div>
           </motion.div>
         </div>
