@@ -106,12 +106,6 @@ const ContactSection = () => {
                   </a>
                 </div>
                 <div className="flex items-center gap-3 text-foreground">
-                  <Github className="h-4 w-4 text-primary shrink-0" />
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
-                    github.com/moamen
-                  </a>
-                </div>
-                <div className="flex items-center gap-3 text-foreground">
                   <MapPin className="h-4 w-4 text-primary shrink-0" />
                   <span>Egypt</span>
                 </div>
