@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Linkedin, Github, Mail, Download } from "lucide-react";
+import { ArrowDown, Linkedin, Mail } from "lucide-react";
 import moamenPhoto from "@/assets/moamen-photo.jpeg";
 
 const HeroSection = () => {
