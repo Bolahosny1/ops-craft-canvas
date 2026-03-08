@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Terminal } from "lucide-react";
+import { Menu, X, Terminal, Sun, Moon } from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -12,6 +12,20 @@ const navLinks = [
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [dark, setDark] = useState(true);
+
+  useEffect(() => {
+    if (dark) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [dark]);
+
+  // Set dark on mount
+  useEffect(() => {
+    document.documentElement.classList.add("dark");
+  }, []);
 
   return (
     <motion.nav
@@ -36,11 +50,27 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
+          <button
+            onClick={() => setDark(!dark)}
+            className="p-2 rounded-lg border border-border bg-secondary hover:border-primary hover:box-glow transition-all"
+            aria-label="Toggle theme"
+          >
+            {dark ? <Sun className="h-4 w-4 text-foreground" /> : <Moon className="h-4 w-4 text-foreground" />}
+          </button>
         </div>
 
-        <button onClick={() => setOpen(!open)} className="md:hidden text-foreground">
-          {open ? <X /> : <Menu />}
-        </button>
+        <div className="flex items-center gap-3 md:hidden">
+          <button
+            onClick={() => setDark(!dark)}
+            className="p-2 rounded-lg border border-border bg-secondary"
+            aria-label="Toggle theme"
+          >
+            {dark ? <Sun className="h-4 w-4 text-foreground" /> : <Moon className="h-4 w-4 text-foreground" />}
+          </button>
+          <button onClick={() => setOpen(!open)} className="text-foreground">
+            {open ? <X /> : <Menu />}
+          </button>
+        </div>
       </div>
 
       <AnimatePresence>

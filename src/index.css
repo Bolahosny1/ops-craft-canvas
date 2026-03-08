@@ -6,6 +6,52 @@
 
 @layer base {
   :root {
+    --background: 210 20% 96%;
+    --foreground: 220 20% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 10%;
+
+    --primary: 150 80% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 15% 90%;
+    --secondary-foreground: 220 20% 15%;
+
+    --muted: 210 15% 92%;
+    --muted-foreground: 220 10% 45%;
+
+    --accent: 200 80% 45%;
+    --warning: 45 90% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 15% 85%;
+    --input: 210 15% 85%;
+    --ring: 150 80% 35%;
+
+    --radius: 0.5rem;
+
+    --terminal: 150 80% 35%;
+    --terminal-dim: 150 40% 50%;
+    --glow: 150 80% 35%;
+
+    --sidebar-background: 210 15% 94%;
+    --sidebar-foreground: 220 20% 10%;
+    --sidebar-primary: 150 80% 35%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 15% 90%;
+    --sidebar-accent-foreground: 220 20% 15%;
+    --sidebar-border: 210 15% 85%;
+    --sidebar-ring: 150 80% 35%;
+  }
+
+  .dark {
     --background: 220 20% 4%;
     --foreground: 160 10% 90%;
 
@@ -96,11 +142,6 @@
   @keyframes float {
     0%, 100% { transform: translateY(0px); }
     50% { transform: translateY(-10px); }
-  }
-
-  @keyframes scan {
-    0% { transform: translateY(-100%); }
-    100% { transform: translateY(100vh); }
   }
 
   .animate-float {
