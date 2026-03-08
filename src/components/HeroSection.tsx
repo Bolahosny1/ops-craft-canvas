@@ -115,25 +115,7 @@ const HeroSection = () => {
           </motion.div>
         </div>
 
-        {/* Stats bar */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4"
-        >
-          {[
-            { label: "Cloud Platforms", value: "3+" },
-            { label: "Tools Mastered", value: "15+" },
-            { label: "Pipelines Built", value: "50+" },
-            { label: "Uptime Goal", value: "99.9%" },
-          ].map((stat) => (
-            <div key={stat.label} className="bg-card border border-border rounded-xl p-4 text-center">
-              <div className="text-2xl font-bold text-primary text-glow">{stat.value}</div>
-              <div className="font-mono text-xs text-muted-foreground mt-1">{stat.label}</div>
-            </div>
-          ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );
