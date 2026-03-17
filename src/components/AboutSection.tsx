@@ -42,13 +42,7 @@ const AboutSection = () => {
               </div>
               <div className="space-y-4 text-secondary-foreground leading-relaxed">
                 <p>
-                  I'm a passionate DevOps Engineer who thrives on automating infrastructure and streamlining deployment pipelines. My mission is to make software delivery faster, safer, and more reliable.
-                </p>
-                <p>
-                  With hands-on experience in cloud platforms, containerization, and CI/CD, I help teams ship code with confidence. I believe in Infrastructure as Code, monitoring everything, and continuous improvement.
-                </p>
-                <p>
-                  When I'm not optimizing pipelines, I'm exploring new tools and contributing to the DevOps community.
+                  DevOps Engineer متخصص في أتمتة البنية التحتية وتبسيط عمليات النشر. بشتغل على Docker, CI/CD, وCloud platforms عشان أخلي الـ delivery أسرع وأأمن.
                 </p>
               </div>
             </div>
