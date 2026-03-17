@@ -32,9 +32,6 @@ const HeroSection = () => {
               <span className="terminal-cursor ml-1">▊</span>
             </div>
 
-            <p className="text-muted-foreground text-lg max-w-lg mb-8 leading-relaxed">
-              Building resilient infrastructure, automating everything, and bridging the gap between development and operations. I turn complex deployments into smooth CI/CD pipelines using Docker, Kubernetes, Terraform &amp; more.
-            </p>
 
             <div className="flex items-center gap-4 mb-8">
               <a
