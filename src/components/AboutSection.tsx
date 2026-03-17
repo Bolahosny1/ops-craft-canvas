@@ -42,7 +42,7 @@ const AboutSection = () => {
               </div>
               <div className="space-y-4 text-secondary-foreground leading-relaxed">
                 <p>
-                  DevOps Engineer متخصص في أتمتة البنية التحتية وتبسيط عمليات النشر. بشتغل على Docker, CI/CD, وCloud platforms عشان أخلي الـ delivery أسرع وأأمن.
+                  A DevOps Engineer focused on automating infrastructure and simplifying deployments. I work with Docker, CI/CD pipelines, and cloud platforms to make software delivery faster and more reliable.
                 </p>
               </div>
             </div>
